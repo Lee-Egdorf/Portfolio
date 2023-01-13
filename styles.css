@@ -1,15 +1,34 @@
 #logo {border-radius: 50%;}
 .parent {
     position: fixed;
-    text-align: left;}
-    
+    text-align: left;
+    margin-right: 1rem;
+    margin-top: -1rem;
+    margin-left: -1rem;
+}
 .child {
     padding: 1rem 1rem;
-    background-color: lightblue;}
-.child2 {padding-bottom: 150%;
-    background-color: lightblue;}
-.button {width: 60%;}
-.buttonh {width: 80%;color: darkgray;}
-.buttonp {width: 80%;color: darkgray;}
-.buttona {width: 80%;color: darkgray;}
-p {margin-left: 15%;margin-right: 80%;}
+    background-color: lightblue;
+}
+.child2 {
+    padding-bottom: 150%;
+    padding-top: 10%;
+    background-color: lightblue;
+}
+.buttons {
+    width: 60%;
+}
+.buttonh {
+    width: 80%;
+    color: darkgray;
+}
+.buttonp {
+    width: 80%;
+    color: darkgray;
+}
+.buttona {
+    width: 80%;
+    color: darkgray;
+}
+p {margin-left: 12rem;;
+position: relative;}
