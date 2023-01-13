@@ -2,33 +2,40 @@
 .parent {
     position: fixed;
     text-align: left;
-    margin-right: 1rem;
-    margin-top: -1rem;
-    margin-left: -1rem;
+    margin-right: 100rem;
 }
 .child {
-    padding: 1rem 1rem;
-    background-color: lightblue;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    background-color: powderblue;
 }
 .child2 {
     padding-bottom: 150%;
     padding-top: 10%;
-    background-color: lightblue;
+    background-color: powderblue;
 }
 .buttons {
-    width: 60%;
+    width: 100%;
 }
 .buttonh {
-    width: 80%;
+    width: 100%;
     color: darkgray;
 }
 .buttonp {
-    width: 80%;
+    width: 100%;
     color: darkgray;
 }
 .buttona {
-    width: 80%;
+    width: 100%;
     color: darkgray;
 }
-p {margin-left: 12rem;;
-position: relative;}
+.parent2 {margin-left: 8rem;;
+position: relative;
+margin-top: -1rem;}
+
+.body1 {background-color: blanchedalmond;}
+.body2 {background-color: blanchedalmond;}
+.body3 {background-color: blanchedalmond;}
+
