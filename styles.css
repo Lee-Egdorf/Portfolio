@@ -11,31 +11,51 @@
     padding-right: .5rem;
     background-color: powderblue;
 }
-.child2 {
-    padding-bottom: 150%;
+.childh {
+    padding-bottom: 160%;
     padding-top: 10%;
     background-color: powderblue;
 }
 .buttons {
+    font-size: 90%;
+    cursor: pointer;
+    border-color: lightgrey;
+    background-color: antiquewhite;
     width: 100%;
 }
 .buttonh {
+    font-size: 90%;
+    cursor: pointer;
+    border-color: lightgrey;
+    background-color: antiquewhite;
     width: 100%;
     color: darkgray;
 }
 .buttonp {
+    font-size: 90%;
+    cursor: pointer;
+    border-color: lightgrey;
+    background-color: antiquewhite;
     width: 100%;
     color: darkgray;
 }
 .buttona {
+    font-size: 90%;
+    cursor: pointer;
+    border-color: lightgrey;
+    background-color: antiquewhite;
     width: 100%;
     color: darkgray;
 }
 .parent2 {margin-left: 8rem;;
 position: relative;
-margin-top: -1rem;}
+margin-top: -1.4%;}
 
-.body1 {background-color: blanchedalmond;}
-.body2 {background-color: blanchedalmond;}
-.body3 {background-color: blanchedalmond;}
+.body1 {background-color: burlywood;}
+.body2 {background-color: burlywood;}
+.body3 {background-color: burlywood;}
+.sepbar1 {background-color: rgb(110, 67, 19); color: rgb(110, 67, 19);}
+
+.header {font-size: 150%;}
+
 
