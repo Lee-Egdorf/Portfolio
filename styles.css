@@ -1,0 +1,15 @@
+#logo {border-radius: 50%;}
+.parent {
+    position: fixed;
+    text-align: left;}
+    
+.child {
+    padding: 1rem 1rem;
+    background-color: lightblue;}
+.child2 {padding-bottom: 150%;
+    background-color: lightblue;}
+.button {width: 60%;}
+.buttonh {width: 80%;color: darkgray;}
+.buttonp {width: 80%;color: darkgray;}
+.buttona {width: 80%;color: darkgray;}
+p {margin-left: 15%;margin-right: 80%;}
