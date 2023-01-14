@@ -6,6 +6,7 @@ div {margin: 0;}
     text-align: center;
     margin-left: 0;
     max-width: 7rem;
+    margin-top: 0;
 }
 .child {
     padding-top: 1rem;
@@ -52,16 +53,18 @@ div {margin: 0;}
 }
 .parent2 {margin-left: 8rem;;
 position: relative;
-margin-top: -1.4%;}
+margin-top: 0;}
 
 .child2 {background-color: burlywood;}
 
 .body1 {background-color: burlywood;}
 .body2 {background-color: burlywood;}
 .body3 {background-color: burlywood;}
-.sepbar1 {background-color: rgb(110, 67, 19); color: rgb(110, 67, 19);}
+.sepbar1 {background-color: rgb(110, 67, 19);height: 20px;}
 
 .header {font-size: 150%;}
 .links {display: inline-block;}
 .child3 {display: inline-block;}
 .child3 a {height: 10px;}
+
+.imglink {max-width: 100px;}
