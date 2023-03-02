@@ -1,0 +1,41 @@
+#logo {border-radius: 50%;}
+
+.parent {
+    position: fixed;
+    text-align: center;
+    margin-left: 0;
+    max-width: 7rem;
+    margin-top: 0;
+}
+.child {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    background-color: powderblue;
+}
+.buttons {
+    font-size: 90%;
+    cursor: pointer;
+    border-color: lightgrey;
+    background-color: antiquewhite;
+    width: 100%;
+}
+
+.buttons:hover {background-color: grey}
+
+.parent2 {margin-left: 8rem;;
+position: relative;
+margin-top: 0;}
+
+body {background-color: burlywood;}
+.sepbar1 {background-color: rgb(110, 67, 19);height: 20px;}
+
+.header {font-size: 150%;}
+.links {display: inline-block;}
+.child3 {display: inline-block;}
+.child3 a {height: 10px;}
+
+.imglink {max-width: 100px;}
+
+.grandparent {top: 0;}

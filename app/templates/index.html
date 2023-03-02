@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My-Portfolio</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}" />
+  </head>
+  <body>
+    <div class="grandparent">
+      <div class="parent">
+        <div class="child">
+          <img src="{% static 'images/logo.png' %}" alt="My logo" id="logo" />
+          <h1>Lee Egdorf</h1>
+        </div>
+        <div class="child">
+          <a href="/">
+            <button class="buttons">Home</button>
+          </a>
+        </div>
+        <div class="child">
+          <a href=" {% url 'skills' %} ">
+            <button class="buttons">My Skills</button>
+          </a>
+        </div>
+        <div class="child">
+          <a
+            href="https://www.linkedin.com/in/lee-egdorf-899063262"
+            target="_blank"
+            ><button class="buttons">Linkedin</button></a
+          >
+        </div>
+        <div class="child">
+          <a href="https://replit.com/@LeeE2" target="_blank" class="buttons"
+            ><button class="buttons">Replit</button></a
+          >
+        </div>
+        <div class="child">
+          <a href=" {% static 'resume.pdf' %} " target="_blank"
+            ><button class="buttons">My resume</button>
+          </a>
+        </div>
+        <div class="childh"></div>
+      </div>
+      {% block content %}
+      <div class="parent2">
+        <div class="child2">
+          <h3 class="header">Welcome to my Portfolio</h3>
+        </div>
+        <div class="child2">
+          <p class="sepbar1"></p>
+        </div>
+        <div>
+          <h4>Who I am</h4>
+          <p class="about">
+            My name is Lee E. Egdorf Jr. I currently live in Water Valley
+            Mississippi, although I was born in Hernando. I grew up with a
+            fascination for all that I could see or get my hands on. In school I
+            took vocational classes for Carpentry and Agriculture and my best
+            classes were biology and algebra, looking back I should have taken
+            the S.T.E.M class, and join the robotics club.
+          </p>
+          <h4>How to reach me</h4>
+          <p>Phone# = 9015897247</p>
+          <p>Email = leeegdorfjr1999@gmail.com</p>
+        </div>
+      </div>
+      {% endblock content %}
+    </div>
+  </body>
+</html>
