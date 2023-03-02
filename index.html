@@ -1,29 +1,18 @@
 <!DOCTYPE html>
-{% load static %}
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My-Portfolio</title>
-    <link rel="stylesheet" href="{% static 'styles.css' %}" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="grandparent">
       <div class="parent">
         <div class="child">
-          <img src="{% static 'images/logo.png' %}" alt="My logo" id="logo" />
+          <img src="images/logo.png" alt="My logo" class="logo" />
           <h1>Lee Egdorf</h1>
-        </div>
-        <div class="child">
-          <a href="/">
-            <button class="buttons">Home</button>
-          </a>
-        </div>
-        <div class="child">
-          <a href=" {% url 'skills' %} ">
-            <button class="buttons">My Skills</button>
-          </a>
         </div>
         <div class="child">
           <a
@@ -33,18 +22,17 @@
           >
         </div>
         <div class="child">
-          <a href="https://replit.com/@LeeE2" target="_blank" class="buttons"
+          <a href="https://replit.com/@LeeE2" target="_blank"
             ><button class="buttons">Replit</button></a
           >
         </div>
         <div class="child">
-          <a href=" {% static 'resume.pdf' %} " target="_blank"
+          <a href="images/resume.pdf" target="_blank"
             ><button class="buttons">My resume</button>
           </a>
         </div>
         <div class="childh"></div>
       </div>
-      {% block content %}
       <div class="parent2">
         <div class="child2">
           <h3 class="header">Welcome to my Portfolio</h3>
@@ -62,12 +50,50 @@
             classes were biology and algebra, looking back I should have taken
             the S.T.E.M class, and join the robotics club.
           </p>
+          <p>
+            I have grown to be proficient in Python, Html/CSS, Django, although
+            I personally enjoy Html/Css more.
+          </p>
           <h4>How to reach me</h4>
-          <p>Phone# = 9015897247</p>
-          <p>Email = leeegdorfjr1999@gmail.com</p>
+          <p>9015897247</p>
+          <p>leeegdorfjr1999@gmail.com</p>
         </div>
       </div>
-      {% endblock content %}
+      <div class="parent2">
+        <p class="sepbar1"></p>
+        <div>
+          <a href="https://lee-egdorf.github.io/Project-Goat/" target="_blank"
+            ><img
+              class="imglink"
+              src="images/Eragon.png"
+              alt="Eragon book cover link that is a hyperlink"
+          /></a>
+          <p>My Greatest Of All Time project</p>
+          <p>Html/Css</p>
+        </div>
+        <p class="sepbar1"></p>
+        <div>
+          <a href="https://lee-egdorf.github.io/Fake-Charity/" target="_blank"
+            ><img
+              class="imglink"
+              src="images/yarnball.png"
+              alt="A yarnball that is a hyperlink"
+          /></a>
+          <p>My fake Charity project</p>
+          <p>Html/Css</p>
+        </div>
+        <p class="sepbar1"></p>
+        <div>
+          <a href="https://replit.com/@LeeE2/Unit-2-project?v=1" target="_blank"
+            ><img
+              class="imglink"
+              src="images/cookbook.png"
+              alt="A cookbook hyperlink"
+          /></a>
+          <p>Unit 2 project (a virtual cookbook)</p>
+          <p>Python</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
