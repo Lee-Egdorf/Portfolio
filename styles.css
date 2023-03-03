@@ -1,13 +1,13 @@
+*{margin: 0;}
+
 .logo {border-radius: 50%;}
 
 .parent {
     position: fixed;
     text-align: center;
-    margin-top: 0;
-    margin-left: 0;
     max-width: 7rem;
-    padding-bottom: 100%;
     background-color: powderblue;
+    padding-bottom: 100%;
 }
 .child {
     padding-top: 1rem;
@@ -15,8 +15,8 @@
     padding-left: .5rem;
     padding-right: .5rem;
     background-color: powderblue;
-    margin: 0;
 }
+.child2 {padding-top: 1rem;padding-bottom: 1rem;}
 .buttons {
     font-size: 90%;
     cursor: pointer;
@@ -28,8 +28,7 @@
 .buttons:hover {background-color: grey}
 
 .parent2 {margin-left: 8rem;;
-position: relative;
-margin-top: 0;}
+position: relative;}
 
 body {background-color: burlywood;}
 .sepbar1 {background-color: rgb(110, 67, 19);height: 20px;}
